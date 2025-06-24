@@ -1,0 +1,25 @@
+# Core server/client
+fastapi
+uvicorn
+httpx
+
+# Anthropic (Claude API)
+anthropic
+
+# Notion API
+notion-client
+
+# Google Drive, Gmail (Google APIs)
+google-api-python-client
+google-auth
+google-auth-oauthlib
+
+# Canva API (unofficial, as Canva does not have an official Python SDK)
+requests
+
+# MCP server/client (assuming custom, using websockets or similar)
+websockets
+
+# Optional: for async tasks, environment, etc.
+python-dotenv
+aiofiles
