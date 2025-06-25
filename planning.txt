@@ -1,0 +1,36 @@
+/**
+ * Project Overview:
+ * 
+ * This project aims to build a web-based chatbot platform that allows users to interact with multiple Large Language Models (LLMs), including Claude, GPT, Gemini, and Qwen. The chatbot will provide tailored resources for learning Python, catering to beginner, intermediate, and experienced programmers. It will generate documentation pages containing both explanatory text and code snippets.
+ * 
+ * Key Components:
+ * 
+ * 1. LLM Selection:
+ *    - Users can choose from multiple LLMs (Claude, GPT, Gemini, Qwen) for their chatbot interactions.
+ * 
+ * 2. MCP (Multi-Channel Platform) Client and Servers:
+ *    - The MCP Client serves as the user interface for interacting with the chatbot and managing resources.
+ *    - MCP Servers handle backend logic, including fetching learning resources, generating documentation, and managing user sessions.
+ * 
+ * 3. Learning Resource Finder:
+ *    - The system provides curated Python learning resources based on the user's skill level (beginner, intermediate, experienced).
+ *    - Generates web pages with structured content, including text explanations and code examples.
+ * 
+ * 4. Integration with External MCP Servers:
+ *    - Drive: Save generated files and documentation.
+ *    - Gmail: Authenticate users and manage user sessions.
+ *    - Notion: Save notes, learning plans, and personalized pages.
+ * 
+ * 5. Personalized Learning Plans:
+ *    - Users receive customized learning paths and resource recommendations.
+ *    - The platform can generate and update personalized documentation and notes.
+ * 
+ * 6. Web-Based Solution:
+ *    - All features are accessible via a web interface, providing a seamless user experience.
+ * 
+ * Goals:
+ * - Enable flexible chatbot interactions with multiple LLMs.
+ * - Provide comprehensive Python learning resources for all skill levels.
+ * - Support integration with popular productivity tools for enhanced learning management.
+ * - Facilitate the creation and storage of personalized learning content.
+ */

@@ -18,3 +18,8 @@ dependencies = [
     "uvicorn>=0.34.3",
     "websockets>=15.0.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "AgenticAI-PPL",
+]

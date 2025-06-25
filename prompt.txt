@@ -1,0 +1,75 @@
+---
+
+**Prompt: Design an Agentic AI Platform for Personalized Python Learning**
+
+---
+
+**Project Objective:**  
+Develop a web-based Agentic AI platform that empowers users to learn Python through interactive chatbot sessions powered by multiple Large Language Models (LLMs), including Claude, GPT, Gemini, and Qwen. The platform should deliver tailored learning resources, generate documentation, and integrate with productivity tools to support personalized and effective learning experiences for users at all skill levels.
+
+---
+
+**Core Functional Requirements:**
+
+1. **Multi-LLM Chatbot Interaction**
+   - Enable users to select and switch between multiple LLMs (Claude, GPT, Gemini, Qwen) for their chatbot interactions.
+   - Maintain conversation context and learning continuity across LLMs.
+
+2. **MCP (Multi-Channel Platform) Architecture**
+   - Implement an MCP Client as a user-friendly web interface for chatbot interaction, resource management, and learning plan visualization.
+   - Develop MCP Servers to handle backend logic, including:
+     - Fetching and curating Python learning resources.
+     - Generating documentation and code snippets.
+     - Managing user authentication, sessions, and data storage.
+
+3. **Learning Resource Finder**
+   - Curate and recommend Python learning resources tailored to the user’s skill level (beginner, intermediate, experienced).
+   - Automatically generate structured web pages containing:
+     - Explanatory text.
+     - Code examples and snippets.
+     - Interactive elements for hands-on practice.
+
+4. **Integration with External Services**
+   - **Google Drive:** Allow users to save generated files, documentation, and notes directly to their Drive.
+   - **Gmail:** Use Gmail for secure user authentication and session management.
+   - **Notion:** Enable saving and organization of notes, learning plans, and personalized documentation in Notion.
+   - **(Optional) Canva:** Support creation or storage of visual learning aids.
+
+5. **Personalized Learning Plans**
+   - Assess user skill level, goals, and progress.
+   - Generate and update customized learning paths and resource recommendations.
+   - Facilitate the creation, storage, and retrieval of personalized documentation and notes.
+
+6. **Web-Based User Experience**
+   - Ensure all features are accessible via a modern, intuitive web interface.
+   - Provide seamless navigation between chatbot, resources, learning plans, and integrations.
+
+---
+
+**Agentic AI Capabilities:**
+- Proactively suggest learning resources, exercises, and next steps based on user progress and interactions.
+- Automatically generate and organize documentation, notes, and code examples.
+- Adapt learning plans dynamically as users interact with the platform and demonstrate progress.
+- Facilitate integration and synchronization with external tools for resource management and productivity.
+
+---
+
+**Project Goals:**
+- Enable flexible, agentic chatbot interactions with multiple LLMs.
+- Deliver comprehensive Python learning resources for all skill levels.
+- Integrate with popular productivity tools (Drive, Gmail, Notion, Canva) for enhanced learning management.
+- Support the creation, storage, and retrieval of personalized learning content and plans.
+
+---
+
+**Deliverables:**
+- A web-based platform with an agentic AI chatbot supporting multiple LLMs.
+- Backend services for resource curation, documentation generation, and user management.
+- Integrations with Google Drive, Gmail, Notion, and optionally Canva.
+- Personalized learning plan engine with dynamic updates.
+- Comprehensive documentation and user onboarding materials.
+
+---
+
+**Instructions:**  
+Design and implement this Agentic AI solution with a focus on modularity, scalability, and user-centric design. Prioritize seamless integration, personalized learning, and proactive AI assistance throughout the user journey. Ensure that the platform is accessible, secure, and adaptable to evolving user needs.
